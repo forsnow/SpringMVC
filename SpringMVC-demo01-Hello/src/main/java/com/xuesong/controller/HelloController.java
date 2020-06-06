@@ -1,5 +1,6 @@
 package com.xuesong.controller;
 
+import com.xuesong.domain.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -21,4 +22,6 @@ public class HelloController {
         System.out.println("Test RequestMapping");
         return "RequestMapping";
     }
+
+
 }

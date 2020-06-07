@@ -58,8 +58,9 @@ Test RequestMapping
 </form>
 --%>
 
-<h3>Test ServletApi</h3>
-<a href="param/testServlet">click this</a>
+<%--<h3>Test ServletApi</h3>
+<a href="param/testServlet">click this</a>--%>
+
 
 </body>
 </html>

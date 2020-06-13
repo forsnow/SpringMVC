@@ -15,23 +15,20 @@
     <script>
         //页面加载 绑定单击事件
         $(function () {
-            $("#btn").click(function () {
-                //alert("hello btn")
-                $.ajax({
-                    //编写json格式 设置属性和值
-                    type: "POST",
-                    url: "user/testAjax",
-                    data: '{"username":"xuesong","password":"123456","age":24}',
-                    dataType:"json",
-                    contentType: "application/json;charset=UTF-8",
-                    success: function(msg){
-                        //msg是服务器响应给客户端的信息
-                    alert(msg);
-                    alert(msg.username)
-                    alert(msg.password)
-                    alert(msg.age)
-                    }
-                })
+            $("#btn").onclick(function () {
+                alert("hello btn")
+                // $.ajax({
+                //     //编写json格式 设置属性和值
+                //     type: "POST",
+                //     url: "user/testAjax",
+                //     data: '{"username":"xuesong","password":"123456","age":24}',
+                //     dataType:"json",
+                //     contentType: "application/json;charset=UTF-8",
+                //     success: function(msg){
+                //         //msg是服务器响应给客户端的信息
+                //     alert( "Data Saved: " + msg );
+                //     }
+                // })
             })
         });
     </script>
